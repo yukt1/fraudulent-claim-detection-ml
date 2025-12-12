@@ -137,7 +137,27 @@ Install dependencies:
 
 
 
+Business Value
 
+Prioritize claim investigations using a risk score
+
+Reduce losses by detecting suspicious claims early
+
+Provide explainable insights for operations teams
+
+Foundation for deployment as a fraud screening service
+
+Future Enhancements
+
+Handle imbalance using class weights / SMOTE
+
+Optimize threshold for higher fraud recall
+
+Add ROC-AUC / PR-AUC reporting
+
+Use SHAP for explainability
+
+Try gradient boosting models (XGBoost/LightGBM)
 pip install -r requirements.txt
 
 Place dataset (or your CSV) in data/
@@ -145,6 +165,8 @@ Place dataset (or your CSV) in data/
 
 
 Run the notebook:
+
+
 
 
 
